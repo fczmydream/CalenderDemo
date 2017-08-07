@@ -15,6 +15,12 @@
 		21A8A84C1F381CA200CD5772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A8A84A1F381CA200CD5772 /* LaunchScreen.storyboard */; };
 		21A8A8571F381CA200CD5772 /* FCalenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8A8561F381CA200CD5772 /* FCalenderTests.m */; };
 		21A8A8621F381CA200CD5772 /* FCalenderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8A8611F381CA200CD5772 /* FCalenderUITests.m */; };
+		21A8A8711F38397400CD5772 /* CollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8A8701F38397400CD5772 /* CollectionViewFlowLayout.m */; };
+		21A8A8761F383C5100CD5772 /* CalenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8A8751F383C5100CD5772 /* CalenderCell.m */; };
+		21A8A8791F383EBA00CD5772 /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8A8781F383EBA00CD5772 /* CollectionReusableView.m */; };
+		21A8A87C1F3841C700CD5772 /* CalenderTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8A87B1F3841C700CD5772 /* CalenderTool.m */; };
+		21A8A87F1F3841EB00CD5772 /* CalenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8A87E1F3841EB00CD5772 /* CalenderView.m */; };
+		21CE9ED31F3898B7007CD25A /* NavTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CE9ED21F3898B7007CD25A /* NavTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,20 @@
 		21A8A85D1F381CA200CD5772 /* FCalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A8A8611F381CA200CD5772 /* FCalenderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCalenderUITests.m; sourceTree = "<group>"; };
 		21A8A8631F381CA200CD5772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A8A86F1F38397400CD5772 /* CollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		21A8A8701F38397400CD5772 /* CollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		21A8A8721F383AAA00CD5772 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		21A8A8731F383B0B00CD5772 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		21A8A8741F383C5100CD5772 /* CalenderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderCell.h; sourceTree = "<group>"; };
+		21A8A8751F383C5100CD5772 /* CalenderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderCell.m; sourceTree = "<group>"; };
+		21A8A8771F383EBA00CD5772 /* CollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
+		21A8A8781F383EBA00CD5772 /* CollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
+		21A8A87A1F3841C700CD5772 /* CalenderTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderTool.h; sourceTree = "<group>"; };
+		21A8A87B1F3841C700CD5772 /* CalenderTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderTool.m; sourceTree = "<group>"; };
+		21A8A87D1F3841EB00CD5772 /* CalenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalenderView.h; sourceTree = "<group>"; };
+		21A8A87E1F3841EB00CD5772 /* CalenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalenderView.m; sourceTree = "<group>"; };
+		21CE9ED11F3898B7007CD25A /* NavTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavTitleView.h; sourceTree = "<group>"; };
+		21CE9ED21F3898B7007CD25A /* NavTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavTitleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +125,19 @@
 				21A8A8401F381CA200CD5772 /* AppDelegate.m */,
 				21A8A8421F381CA200CD5772 /* ViewController.h */,
 				21A8A8431F381CA200CD5772 /* ViewController.m */,
+				21A8A87A1F3841C700CD5772 /* CalenderTool.h */,
+				21A8A87B1F3841C700CD5772 /* CalenderTool.m */,
+				21A8A87D1F3841EB00CD5772 /* CalenderView.h */,
+				21A8A87E1F3841EB00CD5772 /* CalenderView.m */,
+				21A8A8741F383C5100CD5772 /* CalenderCell.h */,
+				21A8A8751F383C5100CD5772 /* CalenderCell.m */,
+				21CE9ED11F3898B7007CD25A /* NavTitleView.h */,
+				21CE9ED21F3898B7007CD25A /* NavTitleView.m */,
+				21A8A8771F383EBA00CD5772 /* CollectionReusableView.h */,
+				21A8A8781F383EBA00CD5772 /* CollectionReusableView.m */,
+				21A8A86F1F38397400CD5772 /* CollectionViewFlowLayout.h */,
+				21A8A8701F38397400CD5772 /* CollectionViewFlowLayout.m */,
+				21A8A8721F383AAA00CD5772 /* Config.h */,
 				21A8A8451F381CA200CD5772 /* Main.storyboard */,
 				21A8A8481F381CA200CD5772 /* Assets.xcassets */,
 				21A8A84A1F381CA200CD5772 /* LaunchScreen.storyboard */,
@@ -118,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				21A8A83D1F381CA200CD5772 /* main.m */,
+				21A8A8731F383B0B00CD5772 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -277,8 +311,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				21A8A8441F381CA200CD5772 /* ViewController.m in Sources */,
+				21CE9ED31F3898B7007CD25A /* NavTitleView.m in Sources */,
+				21A8A87C1F3841C700CD5772 /* CalenderTool.m in Sources */,
+				21A8A87F1F3841EB00CD5772 /* CalenderView.m in Sources */,
 				21A8A8411F381CA200CD5772 /* AppDelegate.m in Sources */,
+				21A8A8711F38397400CD5772 /* CollectionViewFlowLayout.m in Sources */,
 				21A8A83E1F381CA200CD5772 /* main.m in Sources */,
+				21A8A8761F383C5100CD5772 /* CalenderCell.m in Sources */,
+				21A8A8791F383EBA00CD5772 /* CollectionReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 246A9D29DN;
+				GCC_PREFIX_HEADER = /Users/fcz/Desktop/Ready/FCalender/FCalender/PrefixHeader.pch;
 				INFOPLIST_FILE = FCalender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TulipSport.FCalender;
@@ -440,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 246A9D29DN;
+				GCC_PREFIX_HEADER = /Users/fcz/Desktop/Ready/FCalender/FCalender/PrefixHeader.pch;
 				INFOPLIST_FILE = FCalender/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TulipSport.FCalender;
@@ -516,6 +558,7 @@
 				21A8A8681F381CA200CD5772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21A8A8691F381CA200CD5772 /* Build configuration list for PBXNativeTarget "FCalenderTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +567,7 @@
 				21A8A86B1F381CA200CD5772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21A8A86C1F381CA200CD5772 /* Build configuration list for PBXNativeTarget "FCalenderUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +576,7 @@
 				21A8A86E1F381CA200CD5772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
